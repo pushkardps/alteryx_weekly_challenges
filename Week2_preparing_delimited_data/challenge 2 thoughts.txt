@@ -1,0 +1,13 @@
+Back to parsing with this one.
+
+Special mention - RegEx_Replace function in the Formula tool.
+Reminded how strong and powerful asset it is to know RegEx.
+
+new learning - DateTime tool. Had never used this before.
+
+Started off easy with splitting data into three columns,
+then used formula tool RegEx replace funtion to remove un-needed 
+charecters in the string. Thereupon I converted the columns,
+all of them in string format to appropriate format using select tool.
+After that, the only thing remaining was to convert the date column
+to specified format using DateTime tool.
