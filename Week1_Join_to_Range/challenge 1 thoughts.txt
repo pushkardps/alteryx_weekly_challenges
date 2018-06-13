@@ -1,0 +1,6 @@
+This was a pretty straightforward challenge. 
+
+Splitting range into two columns using text-to-columns is quite basic.
+I think the most important part was the use of 'generate rows' tool which 
+adds rows using the two-split-from-parent-columns for iteration/ loop.
+After that, all that required was a simple join followed by summarize to get the needed output.
