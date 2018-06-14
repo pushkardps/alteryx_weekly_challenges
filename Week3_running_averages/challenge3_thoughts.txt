@@ -1,0 +1,21 @@
+This was def not a piece of cake.
+
+new learning - data cleansing tool (only used impute tool till now), multi-row tool, dynamic rename tool
+special mention - multi-row tool - absolutely mind blown over this one, dynamic rename is pretty handy as well
+
+started off with doing field summary of the data. field summary tool is a really cool way to get idea
+of data both qualitatively and quantitatively. It calculates all statistics for the variables - mean, max, mode, % data missing etc
+and you also see histograms of all variables which again tells % data missing as well.
+
+After I saw missing data ~9% in all numerical variables, I used Data cleansing tool to impute the NULLs to 0.
+If I wanted to add any other value except 0, I would have had to use impute tool. Data Cleansing only allows to add 0 or blanks.
+On a whole, I think Impute tool is stronger. 
+
+Next I used cross-tab to make data easier to manipulate and used sort tool to properly group the data.
+It was followed by using multi-row tool to get the needed running average. This was the first time 
+I used this tool, till now I have only used Formula tool which did not give access to any particular row,
+rather the logic was always implemented across the entire column. So formula tool is mostly for column manipulation.
+
+Using Dynamic Rename next to rename the headers appropriately came in very handy, new to this tool as well.
+I used it for adding a  Prefix to the column header but it has multiple uses like - adding header suffix, removing prefix/ suffix,
+choosing first row of data as header and so on.
